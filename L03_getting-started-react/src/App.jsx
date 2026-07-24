@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 /**
  * STUDENT DOSSIER — profile & daily-learning card
  * Design language: academic "index card" / dossier, ink-navy stage,
- * paper-cream card, teal + gold accents, monospace data labels.
+ * paper-cream card, teal + gold accents, monospace data labels....
  */
 
 const FONT_IMPORT =
