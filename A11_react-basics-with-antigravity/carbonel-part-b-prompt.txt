@@ -1,0 +1,1 @@
+Analyze the @src\App.css and @src\components\tracks\SongList.css files to apply pixel-art borders, retro health-bar progress indicators, and classic coin-glow accents. This creates a minimalist yet nostalgic gaming aesthetic without adding any new files.
