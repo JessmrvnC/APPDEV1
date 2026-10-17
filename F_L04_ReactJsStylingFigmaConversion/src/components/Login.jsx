@@ -1,5 +1,5 @@
 import './Login.css'
-import logo from '../../assets/logo.svg'
+import logo from '../assets/logo.svg'
 
 export default function Login() {
   return (
@@ -23,7 +23,7 @@ export default function Login() {
           <h2>Sign-in</h2>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button>Login</button>
+          <button type="button">Login</button>
           <p className="signup">
             Don&apos;t have an account? <a href="#">Signup Here</a>
           </p>
