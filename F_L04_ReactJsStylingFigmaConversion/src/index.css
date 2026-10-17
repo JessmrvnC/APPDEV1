@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,10 +15,10 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background: #5b86e5;
-  color: #000;
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 16px;
+  background: var(--color-primary);
+  color: var(--color-text);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body);
   line-height: 1.5;
 }
 
@@ -30,4 +32,3 @@ input {
   display: grid;
   place-items: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
