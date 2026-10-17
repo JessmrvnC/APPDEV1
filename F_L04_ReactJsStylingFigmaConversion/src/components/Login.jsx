@@ -1,11 +1,11 @@
-import './Login.css'
+import styles from './Login.module.css'
 import logo from '../assets/logo.svg'
 
 export default function Login() {
   return (
-    <div className="login">
-      <section className="left">
-        <h1 className="tagline">
+    <div className={styles.login}>
+      <section className={styles.left}>
+        <h1 className={styles.tagline}>
           Need webdesign
           <br />
           for your business?
@@ -14,17 +14,17 @@ export default function Login() {
           <br />
           will help you.
         </h1>
-        <img className="logo" src={logo} alt="Design Spacee logo" />
-        <p className="link">figma.com/@designspacee</p>
+        <img className={styles.logo} src={logo} alt="Design Spacee logo" />
+        <p className={styles.link}>figma.com/@designspacee</p>
       </section>
 
-      <section className="right">
-        <div className="form">
+      <section className={styles.right}>
+        <div className={styles.form}>
           <h2>Sign-in</h2>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <button type="button">Login</button>
-          <p className="signup">
+          <p className={styles.signup}>
             Don&apos;t have an account? <a href="#">Signup Here</a>
           </p>
         </div>
