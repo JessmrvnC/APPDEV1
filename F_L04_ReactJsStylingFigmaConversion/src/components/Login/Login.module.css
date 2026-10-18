@@ -1,7 +1,9 @@
 .login {
     display: flex;
     width: 86vw;
-    height: 82vh;
+    max-width: 1920px;
+    aspect-ratio: 16 / 9;
+    container-type: inline-size;
     min-height: 600px;
     background: #a9c0f0;
     overflow: hidden;
@@ -10,7 +12,7 @@
 /* ---------- Left panel ---------- */
 .left {
     width: 34%;
-    padding: 12vh 60px 36px;
+    padding: clamp(64px, 10.57cqw, 203px) clamp(24px, 4.17cqw, 80px) 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +20,10 @@
 
 .tagline {
     align-self: flex-start;
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 1.25;
+    font-size: clamp(28px, 2.604cqw, 50px);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
     color: #fff;
 }
 
@@ -30,15 +33,14 @@
 }
 
 .logo {
-    height: 30vh;
-    max-height: 304px;
-    width: auto;
+    width: min(100%, 21.615cqw);
+    height: auto;
     margin: auto 0;
-    filter: drop-shadow(0 20px 20px rgba(60, 80, 140, 0.35));
 }
 
 .link {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.2;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -59,10 +61,11 @@
 }
 
 .form h2 {
-    font-size: 28px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 110px;
+    margin-bottom: 64px;
 }
 
 .form input {
@@ -74,7 +77,8 @@
     border-bottom: 1px solid #333;
     outline: none;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.2;
     letter-spacing: 1px;
 }
 
@@ -95,7 +99,8 @@
     background: #5b86e5;
     color: #fff;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.2;
     font-weight: 700;
     letter-spacing: 1px;
     cursor: pointer;
@@ -104,7 +109,8 @@
 .signup {
     margin-top: 24px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.2;
     letter-spacing: 1px;
 }
 
