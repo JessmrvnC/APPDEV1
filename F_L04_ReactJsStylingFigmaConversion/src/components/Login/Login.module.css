@@ -114,7 +114,8 @@
     letter-spacing: var(--letter-spacing-text);
 }
 
-.signup a {
+.signup a,
+.signup span {
     color: var(--color-primary);
     font-weight: var(--font-weight-bold);
     text-decoration: none;

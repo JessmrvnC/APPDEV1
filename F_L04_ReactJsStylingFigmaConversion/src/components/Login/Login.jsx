@@ -32,7 +32,7 @@ export default function Login() {
                     <button>Login</button>
 
                     <p className={styles.signup}>
-                        Don't have an account? <a href="#">Signup Here</a>
+                        Don't have an account? <span>Signup Here</span>
                     </p>
                 </div>
             </section>
