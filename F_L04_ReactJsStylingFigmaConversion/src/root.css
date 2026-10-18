@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #5b86e5;
+  --color-panel: #a9c0f0;
+  --color-surface: #fff;
+  --color-text: #000;
+  --color-input-border: #333;
+  --color-placeholder: #9a9a9a;
+
+  --font-family: "Poppins", sans-serif;
+  --font-size-body: 16px;
+  --font-size-control: 18px;
+  --font-size-heading: 30px;
+  --font-size-tagline: clamp(28px, 2.604cqw, 50px);
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --line-height-text: 1.2;
+  --line-height-heading: 40px;
+  --letter-spacing-text: 1px;
+  --letter-spacing-tagline: 0.04em;
+
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 28px;
+  --space-xl: 64px;
+  --input-padding: 18px 0 14px;
+
+  --radius-button: 8px;
+  --radius-panel: 60px;
+  --form-width: 575px;
+  --button-height: 60px;
+}
