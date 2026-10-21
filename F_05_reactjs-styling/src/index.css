@@ -1,0 +1,25 @@
+@import "./root.css";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	font-family: var(--font-main);
+	min-height: 100vh;
+	place-items: center;
+	background: var(--page-bg);
+	color: var(--primary-color);
+}
+
+button,
+input {
+	font: inherit;
+}
+
+button {
+	cursor: pointer;
+}

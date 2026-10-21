@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+	/* Typography */
+	--font-main: "Istok Web", sans-serif;
+	--primary-font-size: 64px;
+	--secondary-font-size: 36px;
+	--input-font-size: 24px;
+	--font-weight: bold;
+
+	/* Font Colors */
+	--primary-font-color: #7a999c;
+	--secondary-font-color: rgba(95, 124, 141, 0.55);
+	--off-font-color: rgba(95, 124, 141, 0.39);
+
+	/* Component */
+	--primary-color: #4b687a;
+	--card-bg: #ffffff;
+	--card-radius: 20px;
+	--image-border-radius: var(--card-radius);
+
+	/* Layout */
+	--card-width: min(70vw, calc(75vh * 1.54));
+	--card-aspect-ratio: 1.54;
+	--form-width: 500px;
+
+	/* Page */
+	--page-bg: #f7f8f8;
+}
